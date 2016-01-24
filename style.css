@@ -50,6 +50,8 @@ h1 {
 }
 
 
+#progress .week {font-size: 0.8em; padding-left: 20px;color: #aaa;}
+
 h2 {
     float: left;
     width: 100%; 
