@@ -1,4 +1,4 @@
-body {margin: 0; padding: 0px}
+body {margin: 0; padding: 0px; overflow-x: hidden;}
 
 .contactList {
     margin: 10px;
@@ -7,7 +7,10 @@ body {margin: 0; padding: 0px}
 }
 .contactList th,td {border: 1px solid #000; padding: 5px;}
 
-
+#documents li {
+    list-style: none;
+    width:80%;
+}
 
 
 ul.menu {
@@ -22,6 +25,7 @@ ul.menu li {display: inline-block;
 	    padding-right: 1.5em;
 	    border-right: 2px solid #77c;
 	    margin: 0;
+	    list-style: none;
 	   }
 ul.menu li:last-child {border: 0;}
 ul.menu a {text-decoration: none;
@@ -33,9 +37,9 @@ ul.menu a:hover   {color: #000;}
 ul.menu a:active  {color: #000;}
 
 .page {float: left; width: 100%; padding: 0;}
-.page p,h3,h4,ul,li,dt {
-    padding-left: 10px;
-}
+/* .page p,a,h3,h4,ul,dt { */
+/*     padding-left: 10px; */
+/* } */
 
 h1 {
     margin: auto 0;
