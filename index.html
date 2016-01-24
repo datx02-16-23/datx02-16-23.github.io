@@ -1,20 +1,98 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf8" />
-<!--  <script src="script.js"></script> -->
-  <script src="https://apis.google.com/js/client.js?onload=checkAuth">
-  </script>
+  <meta charset="utf-8" />
+  <!--  Disabled Google Drive functionality
+
+	<script src="script.js"></script> 
+	<script src="https://apis.google.com/js/client.js?onload=checkAuth">
+	</script>
+	-->
+  <title>DATX02-16-23 Bachelors Thesis site</title>
   <link rel=stylesheet href="style.css" type="text/css" />
 </head>
 <body>
   <h1>Data Structure and Algorithm Visualisation Tool</h1>
   <ul class="menu">
-    <li><a href="#contact">Contact Information</a></li>
     <li><a href="#diary">Project Diary</a></li>
-    <li><a href="#planning">Planning Report</a></li>
-    <li><a href="#proposal">Project Proposal</a></li>
+    <li><a href="#documents">Documents</a></li>
+    <li><a href="#contact">Contact Information</a></li>
   </ul>
 
+  
+  <div id=diary class=page>
+    <h2>Project Diary</h2>
+    <div id=minutes>
+      <h3>Meeting Minutes</h3>
+      <ul>
+	<li><a href="minutes/Meeting22016-01-22.pdf">
+	    2016-01-19: Meeting 2: Project planning report, delimitaition
+	</a></li>
+	<li><a href="minutes/Meeting12016-01-19.pdf">
+	    2016-01-19: Meeting 1: Group contract, vision and more
+	</a></li>
+	<li><a href="minutes/Meeting0Startup2015-12-17.pdf">
+	    2015-12-17: Startup Meeting
+	</a></li>
+      </ul>
+    </div>
+    <div id=progress>
+      <h3>Progress (updated weekly)</h3>
+      <ul>
+	<li><h4>Week 1, first (official) week of the project!</h4>
+	  <p>Inbetween our first lectures we've had two meetings. In our tuesday
+	    meeting we agreed on methods of communications, ways to share
+	    resources and meeting templates. We started working on our vision and
+	    made a draft of our group contract.
+	  </p>
+	  <p>
+	    In our second meeting, we started doing status reports, a recurring
+	    point on each meeting onward. We also, by some of the insights of
+	    lectures this week, decided to assign roles. Ivar is assigned
+	    project leader until further notice and Jonathan is assigned to
+	    evaluate the project process through this part of the project.	  
+	  </p>
+	  <p>
+	    We have limited the scope of the project a bit by deciding on some
+	    restrictions. The focus of our project should be tracking changes
+	    to data structures and enforcing a 2D visualisation of simpler
+	    data structures, annotated by a custom markup. The target of our
+	    project will be Java and simpler data structures, but should be
+	    easy to extend to other languages and datastructures in future work.
+	  </p>
+	  <p>
+	    Our priority for the next week is finishing a draft for the
+	    project planning report.
+	  </p>
+	  
+	  
+	</li>
+	<li>
+	  <h4>Week 0, a startup meeting</h4>
+	  <p>
+	    At 2015-12-17 we had our first meeting. The meeting focused on
+	    deliverables, methods of communication and some brief pointers on
+	    project management. Also, we got some needed pointers of what our
+	    project proposal lacks. The project proposal is unclear and our
+	    bibliograpy is severely lacking. We got tasked to produce a web site
+	    containing contact information, project diary and minutes.
+	  </p>
+	</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id=documents class=page>
+    <h2>Documents</h2>
+    <ul>
+      <li><a href="docs/projectproposal.pdf">
+	  Project proposal (not yet updated)
+      </a></li>
+      <li><!--<a href="docs/planningreport.pdf"> -->
+	Planning report (no draft yet)
+      <li>
+    </ul>
+  </div>
+  
   <div id=contact class=page>
     <h2>Contact Information</h2>
     <table class="contactList">
@@ -49,7 +127,7 @@
 	<tr>
 	  <td>Ivar Josefsson</td>
 	  <td>jivar@student.chalmers.se</td>
-	  <td>-</td>
+	  <td>072 - 036 62 65</td>
 	</tr>
 	<tr>
 	  <td>Dennis Jönsson</td>
@@ -58,26 +136,5 @@
 	</tr>
       </tbody>
     </table>
-  </div>
-  
-  <div id=diary class=page>
-    <h2>Project Diary</h2>
-    <h3>Minutes</h3>
-    <ul id="minutes">
-      <li><a href="minutes/Meeting0Startup2015-12-17.pdf">
-	  2015-12-17: Startup Meeting
-      </a></li>
-      <li><a href="minutes/Meeting12016-01-19.pdf">
-	  2016-01-19: Meeting 1: Group contract, vision and more
-      </a></li>
-    </ul>
-    <h3>Progress (updated weekly)</h3>
-  </div>
-  
-  <div id=proposal class=page>
-    <h2>Project Proposal</h2>
-  </div>
-  <div id=planning class=page>
-    <h2>Planning Report</h2>
   </div>
 </body>

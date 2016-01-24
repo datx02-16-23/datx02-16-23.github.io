@@ -14,6 +14,7 @@ ul.menu {
     background-color: #fff;
     color: #77c;
     margin: 0px;
+    padding: 0px;
 }
 
 ul.menu li {display: inline-block;
@@ -31,6 +32,7 @@ ul.menu a:visited {color: #000;}
 ul.menu a:hover   {color: #000;}
 ul.menu a:active  {color: #000;}
 
+.page {float: left; width: 100%; padding: 0;}
 .page p,h3,h4,ul,li,dt {
     padding-left: 10px;
 }
@@ -45,9 +47,42 @@ h1 {
 
 
 h2 {
+    float: left;
+    width: 100%; 
     margin: 0 auto;
     background-color: #77c;
     color: #fff;
     padding: 10px;
     font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#minutes {
+    float: right;
+    width: 40%;
+}
+
+#minutes li {
+    font-size: 0.8em;
+}
+
+
+#progress {
+    width: 55%;
+    float: right;
+}
+
+@media screen and (max-width: 700px) {
+    #progress {width: 100%; }
+    #minutes {width: 100%; }
+    ul.menu li {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		border-bottom: 2px solid #77c;
+		margin: 0;
+		}
+
 }
