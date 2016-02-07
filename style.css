@@ -41,13 +41,22 @@ ul.menu a:active  {color: #000;}
 /*     padding-left: 10px; */
 /* } */
 
-h1 {
+header {
     margin: auto 0;
     padding: 15px;
     background-color: #77c;
     color: #fff;
     
 }
+
+header h4 {
+    margin-bottom: 0;
+}
+
+.page > p {
+    margin-left: 15px;
+}
+
 
 
 #progress .week {font-size: 0.8em; padding-left: 20px;color: #aaa;}
